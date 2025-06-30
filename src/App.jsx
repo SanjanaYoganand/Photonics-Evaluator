@@ -1,6 +1,9 @@
 import { useEffect,useState } from 'react';
 import { initializeApp } from 'firebase/app';
 import { getFirestore, collection, addDoc, getDocs} from 'firebase/firestore';
+import middleImg from './assets/middle.png';
+import topImg from './assets/topp.png';
+import middle1Img from './assets/middle1.png';
 
 // FIREBASE
 const firebaseConfig = {
@@ -126,20 +129,22 @@ function App() {
 <hr style={{ border: '1px solid #ffffff', margin: '20px 0',  transform: 'translateX(530px)'}} />
           <div className="panel-images">
   <img
-    src="/src/assets/middle.png"
-    alt="Sample 1"
-    className="img-bottom"
-  />
-  <img
-    src="/src/assets/topp.png"
-    alt="Sample 1"
-    className="img-bottom2"
-  />
-  <img
-    src="/src/assets/middle1.png"
-    alt="Sample 2"
-    className="img-top"
-  />
+  src={middleImg}
+  alt="Sample 1"
+  className="img-bottom"
+/>
+
+<img
+  src={topImg}
+  alt="Sample 1"
+  className="img-bottom2"
+/>
+
+<img
+  src={middle1Img}
+  alt="Sample 2"
+  className="img-top"
+/>
 </div>
         <div
           className="glass-panel"
