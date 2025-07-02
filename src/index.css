@@ -257,7 +257,7 @@ button:focus-visible {
 
   .custom-divider {
   border: 1px solid #ffffff;
-  width: 600px;
+  width: 350px;
   margin: 20px 0;
   transform: translateX(40px);
   transform: translateY(600px);
@@ -266,7 +266,7 @@ button:focus-visible {
 .custom-divider1{
   border: 1px solid #ffffff;
   margin: 20px 0;
-  width: 600px;
+  width: 350px;
   transform: translateX(40px);
   transform: translateY(600px);
 }
