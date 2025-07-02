@@ -108,20 +108,18 @@ function App() {
   <button type="submit" className="submit-btn">Submit</button>
 </form>
 {formData.imageUrl && (
-  <div
-    style={{
-      position: 'absolute',    
-      top: '310px',           
-      left: '555px',         
-    }}
-  >
+  <div>
     <img
       src={formData.imageUrl}
       alt="Preview"
+      className="preview"
       style={{
         width: '400px',
         borderRadius: '12px',
-        boxShadow: '0 4px 12px rgba(0,0,0,0.4)'
+        boxShadow: '0 4px 12px rgba(0,0,0,0.4)',
+        position: 'absolute',
+        top: '310px',
+        left: '555px'
       }}
     />
   </div>
