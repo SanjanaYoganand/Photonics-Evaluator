@@ -107,17 +107,9 @@ function App() {
   />
   <button type="submit" className="submit-btn">Submit</button>
 </form>
-{formData.imageUrl && (
-  <div
-    style={{
-      position: 'absolute',    
-      top: '310px',           
-      left: '555px',         
-    }}
-  >
-    <img src={formData.imageUrl} alt="Preview" class="preview-image" />
-  </div>
-)}
+<div class="preview-container">
+  <img src={formData.imageUrl} alt="Preview" class="preview-image" />
+</div>
 <hr class="custom-divider1" />
           <div className="panel-images">
   <img
