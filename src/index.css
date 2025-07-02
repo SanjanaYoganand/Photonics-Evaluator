@@ -224,14 +224,14 @@ button:focus-visible {
   }
 
   .preview-image {
-    width: 400px;
+    width: 360px;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
   }
   .preview-container {
   position: absolute;
-  top: 610px;
-  left: 5px;
+  top: 710px;
+  left: -1px;
 }
 
   .success-msg {
@@ -257,7 +257,7 @@ button:focus-visible {
 
   .custom-divider {
   border: 1px solid #ffffff;
-  width: 300px;
+  width: 600px;
   margin: 20px 0;
   transform: translateX(40px);
   transform: translateY(600px);
@@ -266,7 +266,7 @@ button:focus-visible {
 .custom-divider1{
   border: 1px solid #ffffff;
   margin: 20px 0;
-  width: 300px;
+  width: 600px;
   transform: translateX(40px);
   transform: translateY(600px);
 }
