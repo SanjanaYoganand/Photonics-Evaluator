@@ -187,6 +187,11 @@ button:focus-visible {
   transform: translateX(530px);
 }
 
+.preview-image {
+  width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  }
 
 
 @media (max-width: 768px) {
@@ -214,7 +219,7 @@ button:focus-visible {
     display: none; /* Hide unnecessary images */
   }
 
-  img.preview {
+  .preview-image {
     width: 90vw !important;
     position: static !important;
     margin: 20px auto;
