@@ -115,15 +115,7 @@ function App() {
       left: '555px',         
     }}
   >
-    <img
-      src={formData.imageUrl}
-      alt="Preview"
-      style={{
-        width: '400px',
-        borderRadius: '12px',
-        boxShadow: '0 4px 12px rgba(0,0,0,0.4)'
-      }}
-    />
+    <img src={formData.imageUrl} alt="Preview" class="preview-image" />
   </div>
 )}
 <hr class="custom-divider1" />
