@@ -204,7 +204,7 @@ button:focus-visible {
   }
 
   .form-vertical {
-    width: 130vw;
+    width: 60vw;
     margin-left: auto !important;
     margin-right: auto !important;
   }
