@@ -192,7 +192,11 @@ button:focus-visible {
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
   }
-
+.preview-container {
+  position: absolute;
+  top: 310px;
+  left: 555px;
+}
 
 @media (max-width: 768px) {
   .glass-panel {
@@ -223,9 +227,12 @@ button:focus-visible {
     width: 400px;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-    top: 600px;
-    right: 390px;
   }
+  .preview-container {
+  position: absolute;
+  top: 610px;
+  left: 5px;
+}
 
   .success-msg {
     text-align: center;
