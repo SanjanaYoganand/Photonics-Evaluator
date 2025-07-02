@@ -224,14 +224,14 @@ button:focus-visible {
   }
 
   .preview-image {
-    width: 360px;
+    width: 340px;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
   }
   .preview-container {
   position: absolute;
-  top: 910px;
-  left: -1px;
+  top: 870px;
+  left: 1px;
 }
 
   .success-msg {
