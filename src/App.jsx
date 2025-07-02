@@ -4,6 +4,7 @@ import { getFirestore, collection, addDoc, getDocs} from 'firebase/firestore';
 import middleImg from './assets/middle.png';
 import topImg from './assets/topp.png';
 import middle1Img from './assets/middle1.png';
+import './App.css';
 
 // FIREBASE
 const firebaseConfig = {
