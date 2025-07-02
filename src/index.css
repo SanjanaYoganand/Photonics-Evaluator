@@ -162,3 +162,58 @@ button:focus-visible {
 .submit-btn:hover {
   background-color: #374151;
 }
+
+@media (max-width: 768px) {
+  .glass-panel {
+    display: none; /* Hide side panel */
+  }
+
+  .form-vertical {
+    width: 90vw;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .glass-input {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .submit-btn {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .panel-images {
+    display: none; /* Hide unnecessary images */
+  }
+
+  img.preview {
+    width: 90vw !important;
+    position: static !important;
+    margin: 20px auto;
+    display: block;
+  }
+
+  .success-msg {
+    text-align: center;
+    margin-left: 0 !important;
+  }
+
+  .panel-title {
+    font-size: 24px;
+    text-align: center;
+    margin-left: 0 !important;
+  }
+
+  .photography-text {
+    display: none; /* Hide "PHOTOGRAPHY" text on small screens */
+  }
+
+  .img-bottom,
+  .img-bottom2,
+  .img-top {
+    display: none;
+  }
+}
+
