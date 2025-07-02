@@ -205,18 +205,12 @@ button:focus-visible {
 
   .form-vertical {
     width: 74vw;
-    margin-left: 15vw !important;
-    margin-right: auto !important;
+    margin-left: 7vw !important;
   }
 
   .glass-input {
     width: 100%;
     font-size: 16px;
-  }
-
-  .submit-btn {
-    width: 100%;
-    font-size: 18px;
   }
 
   .panel-images {
@@ -231,7 +225,7 @@ button:focus-visible {
   .preview-container {
   position: absolute;
   top: 870px;
-  left: 8px;
+  left: 9px;
 }
 
   .success-msg {
