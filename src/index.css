@@ -220,10 +220,10 @@ button:focus-visible {
   }
 
   .preview-image {
-    width: 400px;
+    width: 40px;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-    top: 100px;
+    top: 600px;
     right: 90px;
   }
 
