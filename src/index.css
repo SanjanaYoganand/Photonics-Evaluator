@@ -251,15 +251,15 @@ button:focus-visible {
   .custom-divider {
   border: 1px solid #ffffff;
   margin: 20px 0;
-  transform: translateX(10px);
-  transform: translateY(100px);
+  transform: translateX(30px);
+  transform: translateY(600px);
 }
   
 .custom-divider1{
   border: 1px solid #ffffff;
   margin: 20px 0;
-  transform: translateX(10px);
-  transform: translateY(100px);
+  transform: translateX(30px);
+  transform: translateY(600px);
 }
 }
 
