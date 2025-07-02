@@ -193,6 +193,8 @@ button:focus-visible {
     position: static !important;
     margin: 20px auto;
     display: block;
+    top: 10px;
+    right: -90px;
   }
 
   .success-msg {
