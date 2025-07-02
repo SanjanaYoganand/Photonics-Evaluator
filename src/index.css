@@ -247,13 +247,13 @@ button:focus-visible {
   .custom-divider {
   border: 1px solid #ffffff;
   margin: 20px 0;
-  transform: translateX(500px);
+  transform: translateX(50px);
 }
   
 .custom-divider1{
   border: 1px solid #ffffff;
   margin: 20px 0;
-  transform: translateX(500px);
+  transform: translateX(50px);
 }
 }
 
