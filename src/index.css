@@ -219,8 +219,8 @@ button:focus-visible {
     position: static !important;
     margin: 20px auto;
     display: block;
-    top: 10px;
-    right: -90px;
+    top: 100px;
+    right: 90px;
   }
 
   .success-msg {
@@ -247,13 +247,15 @@ button:focus-visible {
   .custom-divider {
   border: 1px solid #ffffff;
   margin: 20px 0;
-  transform: translateX(50px);
+  transform: translateX(10px);
+  transform: translateY(100px);
 }
   
 .custom-divider1{
   border: 1px solid #ffffff;
   margin: 20px 0;
-  transform: translateX(50px);
+  transform: translateX(10px);
+  transform: translateY(100px);
 }
 }
 
