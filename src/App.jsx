@@ -4,7 +4,6 @@ import { getFirestore, collection, addDoc, getDocs} from 'firebase/firestore';
 import middleImg from './assets/middle.png';
 import topImg from './assets/topp.png';
 import middle1Img from './assets/middle1.png';
-import './App.css';
 
 // FIREBASE
 const firebaseConfig = {
@@ -109,18 +108,20 @@ function App() {
   <button type="submit" className="submit-btn">Submit</button>
 </form>
 {formData.imageUrl && (
-  <div>
+  <div
+    style={{
+      position: 'absolute',    
+      top: '310px',           
+      left: '555px',         
+    }}
+  >
     <img
       src={formData.imageUrl}
       alt="Preview"
-      className="preview"
       style={{
         width: '400px',
         borderRadius: '12px',
-        boxShadow: '0 4px 12px rgba(0,0,0,0.4)',
-        position: 'absolute',
-        top: '310px',
-        left: '555px'
+        boxShadow: '0 4px 12px rgba(0,0,0,0.4)'
       }}
     />
   </div>
@@ -161,10 +162,10 @@ function App() {
           }}
         >
         </div>
-       <p className="photography-text" style={{
-  position: 'absolute',
-  top: '340px',
-  left: '1130px',
+        <p style={{
+  position: 'absolute',      
+  top: '340px',               
+  left: '1130px',    
   textTransform: 'uppercase',
   letterSpacing: '2px',
   fontWeight: 700,
@@ -175,6 +176,7 @@ function App() {
 }}>
   PHOTOGRAPHY
 </p>
+
     </div>
   );
 }
