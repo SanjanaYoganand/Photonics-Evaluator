@@ -220,7 +220,6 @@ button:focus-visible {
   }
 
   .preview-image {
-    width: 90vw !important;
     position: static !important;
     margin: 20px auto;
     display: block;
