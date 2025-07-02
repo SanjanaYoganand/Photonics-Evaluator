@@ -199,14 +199,11 @@
   }
 
   .photography-text {
-    display: none; 
+    display: none; /* Hide "PHOTOGRAPHY" text on small screens */
   }
-
+   .img-bottom,
   .img-bottom2,
   .img-top {
-    display: none !important;
+    display: none;
   }
 }
-
-
-
