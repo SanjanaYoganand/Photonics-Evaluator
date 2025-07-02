@@ -126,7 +126,7 @@ function App() {
     />
   </div>
 )}
-<hr style={{ border: '1px solid #ffffff', margin: '20px 0',  transform: 'translateX(530px)'}} />
+<hr class="custom-divider1" />
           <div className="panel-images">
   <img
   src={middleImg}
