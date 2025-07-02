@@ -169,6 +169,7 @@ button:focus-visible {
   left: 1130px;
   text-transform: uppercase;
   letter-spacing: 2px;
+  font-size: 30px; 
   font-weight: 700;
   font-family: 'Orbitron', 'Segoe UI', Arial, sans-serif;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
