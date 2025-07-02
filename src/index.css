@@ -243,5 +243,17 @@ button:focus-visible {
   .img-top {
     display: none;
   }
+
+  .custom-divider {
+  border: 1px solid #ffffff;
+  margin: 20px 0;
+  transform: translateX(500px);
+}
+  
+.custom-divider1{
+  border: 1px solid #ffffff;
+  margin: 20px 0;
+  transform: translateX(500px);
+}
 }
 
