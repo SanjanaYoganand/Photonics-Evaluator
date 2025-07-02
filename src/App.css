@@ -201,7 +201,15 @@
   .photography-text {
     display: none; 
   }
-   .img-bottom,
+
+  .img-bottom {
+  z-index: 10;
+  width: 450px;
+  height: 300px;
+  position: absolute;
+  bottom: 120px;
+  right: 5px;
+}
   .img-bottom2,
   .img-top {
     display: none !important;
