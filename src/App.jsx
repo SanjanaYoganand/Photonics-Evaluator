@@ -160,10 +160,10 @@ function App() {
           }}
         >
         </div>
-        <p style={{
-  position: 'absolute',      
-  top: '340px',               
-  left: '1130px',    
+       <p className="photography-text" style={{
+  position: 'absolute',
+  top: '340px',
+  left: '1130px',
   textTransform: 'uppercase',
   letterSpacing: '2px',
   fontWeight: 700,
@@ -174,7 +174,6 @@ function App() {
 }}>
   PHOTOGRAPHY
 </p>
-
     </div>
   );
 }
