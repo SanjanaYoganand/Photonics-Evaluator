@@ -162,21 +162,7 @@ function App() {
           }}
         >
         </div>
-        <p style={{
-  position: 'absolute',      
-  top: '340px',               
-  left: '1130px',    
-  textTransform: 'uppercase',
-  letterSpacing: '2px',
-  fontWeight: 700,
-  fontSize: '30px',
-  fontFamily: "'Orbitron', 'Segoe UI', Arial, sans-serif",
-  textShadow: '0 2px 8px rgba(0,0,0,0.25)',
-  color: '#fff'
-}}>
-  PHOTOGRAPHY
-</p>
-
+        <p class="photography-text">PHOTOGRAPHY</p>
     </div>
   );
 }
