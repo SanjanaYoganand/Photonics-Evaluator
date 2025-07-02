@@ -204,7 +204,7 @@
    .img-bottom,
   .img-bottom2,
   .img-top {
-    display: none;
+    display: none !important;
   }
 }
 
