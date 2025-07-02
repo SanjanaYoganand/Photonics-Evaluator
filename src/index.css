@@ -204,7 +204,7 @@ button:focus-visible {
   }
 
   .form-vertical {
-    width: 90vw;
+    width: 100vw;
     margin-left: auto !important;
     margin-right: auto !important;
   }
@@ -231,7 +231,7 @@ button:focus-visible {
   .preview-container {
   position: absolute;
   top: 870px;
-  left: 1px;
+  left: 5px;
 }
 
   .success-msg {
@@ -242,7 +242,7 @@ button:focus-visible {
 .submit-btn {
   width: 100%;
   font-size: 18px;
-  margin-left: 20px; /* adjust as needed */
+  margin-left: 10px; /* adjust as needed */
 }
   .panel-title {
     font-size: 24px;
