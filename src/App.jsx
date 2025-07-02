@@ -107,9 +107,11 @@ function App() {
   />
   <button type="submit" className="submit-btn">Submit</button>
 </form>
-<div class="preview-container">
-  <img src={formData.imageUrl} alt="Preview" class="preview-image" />
-</div>
+{formData.imageUrl && (
+  <div className="preview-container">
+    <img src={formData.imageUrl} alt="Preview" className="preview-image" />
+  </div>
+)}
 <hr class="custom-divider1" />
           <div className="panel-images">
   <img
