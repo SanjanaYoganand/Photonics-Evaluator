@@ -176,6 +176,18 @@ button:focus-visible {
   color: #fff;
 }
 
+.custom-divider {
+  border: 1px solid #ffffff;
+  margin: 20px 0;
+  transform: translateX(530px);
+}
+.custom-divider1{
+  border: 1px solid #ffffff;
+  margin: 20px 0;
+  transform: translateX(530px);
+}
+
+
 
 @media (max-width: 768px) {
   .glass-panel {
