@@ -199,7 +199,7 @@
   }
 
   .photography-text {
-    display: none; /* Hide "PHOTOGRAPHY" text on small screens */
+    display: none; 
   }
    .img-bottom,
   .img-bottom2,
