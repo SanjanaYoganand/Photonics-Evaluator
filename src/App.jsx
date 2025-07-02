@@ -63,7 +63,7 @@ function App() {
     <div className="main-bg">
           <h1 className="panel-title" style={{ marginLeft: '100px' }}>                     Submit Entries </h1>
           {success && <p className="success-msg" style={{ marginLeft: '190px' }}> Submission successful!</p>}
-          <hr style={{ border: '1px solid #ffffff', margin: '20px 0',  transform: 'translateX(530px)'}} />
+         <hr class="custom-divider" />
 <form onSubmit={handleSubmit} className="form-vertical" style={{ marginLeft: '100px' }}>
   <input
     name="regNo"
