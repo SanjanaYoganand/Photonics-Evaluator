@@ -204,8 +204,8 @@ button:focus-visible {
   }
 
   .form-vertical {
-    width: 60vw;
-    margin-left: auto !important;
+    width: 74vw;
+    margin-left: 15vw !important;
     margin-right: auto !important;
   }
 
@@ -231,7 +231,7 @@ button:focus-visible {
   .preview-container {
   position: absolute;
   top: 870px;
-  left: 5px;
+  left: 8px;
 }
 
   .success-msg {
@@ -262,7 +262,7 @@ button:focus-visible {
 
   .custom-divider {
   border: 1px solid #ffffff;
-  width: 350px;
+  width: 360px;
   margin: 20px 0;
   transform: translateX(40px);
   transform: translateY(600px);
@@ -271,7 +271,7 @@ button:focus-visible {
 .custom-divider1{
   border: 1px solid #ffffff;
   margin: 20px 0;
-  width: 350px;
+  width: 360px;
   transform: translateX(40px);
   transform: translateY(600px);
 }
