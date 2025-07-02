@@ -207,7 +207,7 @@ button:focus-visible {
   }
 
   .photography-text {
-    display: none; /* Hide "PHOTOGRAPHY" text on small screens */
+    display: none !important; 
   }
 
   .img-bottom,
